@@ -7,9 +7,9 @@
 
 numbers_list = [1, 1, 2, 3, 4, 5, 8, 13, 21, 34, 55, 89]
 
-print("Thanks for the list, the following numbers are less than 10:")
+input_number = input("Hello, please input a number and I will tell you all the numbers in the list that are smaller than yours: ")
 less_than_list = []
 for number in numbers_list:
-    if number < 10:
+    if number < int(input_number):
         less_than_list.append(number)
 print(less_than_list)
