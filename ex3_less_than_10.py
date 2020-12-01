@@ -5,7 +5,7 @@
 # Bonus2 - write in one line of python
 # Bonus3 - ask user for a number then print all the numbers from the list that are less than the number
 
-numbers_list = [1, 1, 2, 3, 4, 5, 8, 13, 21, 34, 55, 89]
+numbers_list = [1, 2, 3, 4, 5, 8, 13, 21, 34, 55, 89]
 
 input_number = input("Hello, please input a number and I will tell you all the numbers in the list that are smaller than yours: ")
 less_than_list = []
